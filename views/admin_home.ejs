@@ -1,0 +1,42 @@
+<html lang="en">
+    <head>
+        <title>CetifyU</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale = 1>
+        <!--bootstrap5 --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!--bootstrap5 --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--bootstrap5 icons --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    </head>
+    <style type="text/css">
+         body, html {
+    height: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,sans-serif;
+}
+    </style>
+    <body><br>
+        <marquee style="color: red;font-size: 30px;" scrollamount="15">Only for Admin!!!</marquee>
+        <div class="container mt-5" style="box-shadow: 0 2px 10px rgba(0,0,255,0.3); height: 350px;width: 950px;"align="center"><center><br><br>
+            
+            <div class="row">&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="col-6" style="box-shadow: 0 2px 10px rgba(0,0,255,0.3); height: 250px;width: 450px;"align="center"><br>
+                    <h3 class="text-primary">To view the achievements of faculties click here!!!!</h3><br>
+                    <form action="/facutlyanalysis" method="GET">
+                        <button class="btn btn-info" type="submit" name="fac" style="color:white;">Faculty</button>
+                        
+                    </form>
+                </div>&nbsp;&nbsp;&nbsp;
+                <div class="col-6" style="box-shadow: 0 2px 10px rgba(0,0,255,0.3); height: 250px;width: 450px;"align="center"><br>
+                    <h3 class="text-primary">To view the achievements of students click here!!!!</h3><br>
+                    <form action="/studentanalysis" method="GET">
+                        <button class="btn btn-info" type="submit" name="stu" style="color:white;">Student</button>
+                        
+                    </form>
+                </div>
+                
+            </div>
+            </center>
+        </div>
+
+    </body>
+
+</html>
